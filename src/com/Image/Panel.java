@@ -1,4 +1,4 @@
-package com.DrawImage;
+package com.Image;
 
 import java.awt.*;
 import javax.swing.*;

@@ -1,4 +1,4 @@
-package com.DrawShapes;
+package com.Shapes;
 
 public class Main {
 

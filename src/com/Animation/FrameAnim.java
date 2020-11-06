@@ -1,7 +1,5 @@
 package com.Animation;
 
-import com.DrawShapes.Panel;
-
 import javax.swing.*;
 
 public class FrameAnim extends JFrame {

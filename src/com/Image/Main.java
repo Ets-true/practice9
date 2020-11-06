@@ -1,4 +1,4 @@
-package com.DrawImage;
+package com.Image;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -10,10 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         final String imgPath = args[0];
-
         final BufferedImage image = ImageIO.read(new File(imgPath));
-
-
         Frame frame = new Frame(image);
 
     }

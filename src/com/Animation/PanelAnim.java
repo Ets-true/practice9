@@ -1,7 +1,5 @@
 package com.Animation;
 
-import com.DrawImage.Frame;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -17,7 +15,7 @@ public class PanelAnim extends JPanel implements ActionListener {
 
 
 
-    private final int FRAME_DURATION = 80;
+    private final int FRAME_DURATION = 120;
 
 
 

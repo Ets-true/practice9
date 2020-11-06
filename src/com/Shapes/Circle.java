@@ -1,4 +1,4 @@
-package com.DrawShapes;
+package com.Shapes;
 import java.awt.*;
 import java.lang.Math;
 

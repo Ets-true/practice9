@@ -1,26 +1,20 @@
-package com.DrawImage;
+package com.Shapes;
 
 import javax.swing.*;
-import java.awt.image.BufferedImage;
 
 public class Frame extends JFrame {
 
-    public static BufferedImage img;
-
     Panel panel;
 
-
-
-    public Frame(BufferedImage newImg) {
+    public Frame() {
 
         panel = new Panel();
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.add(panel);
         this.pack();
+        this.setLocationRelativeTo(null);
         this.setVisible(true);
-
-        img = newImg;
 
     }
 
